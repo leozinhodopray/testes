@@ -6,11 +6,30 @@ body{
 .container{
     max-width: 800px;
     margin: 0 auto;
-    padding: 200px;
-    background-color: goldenrod;
-    color: rgb(210, 30, 30);
+    padding: 160px;
+    background: linear-gradient(green, gold, rgb(141, 244, 23));
+    color: rgb(0, 0, 0);
 }
 .titulo-principal{
     text-align: center;
     font-size: 2em;
+}
+.banner img{
+    max-width: 100%;
+    height: auto;
+}
+.elenco{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.ator{
+    text-align: center;
+}
+.ator img{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px purple;
 }
